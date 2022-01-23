@@ -13,7 +13,7 @@ namespace Collection
             Soru2();
             //   Soru3();
         }
-
+        #region Soru_1
         static void Soru1()
         {
             /*
@@ -56,8 +56,7 @@ namespace Collection
                     Console.WriteLine(" Negatif ve numeric olmayan değer girilemez !!");
                     i--;
                 }
-
-            }
+           }
             prime.Sort();
             prime.Reverse();
             Console.WriteLine("-----------------------Asal sayılar ----------------------");
@@ -69,9 +68,7 @@ namespace Collection
             Console.WriteLine("-----------------------Asal  olmayan sayılar ----------------------");
             sirala(notPrime);
             ortlama(notPrime);
-          
-
-
+        
             void ortlama(ArrayList list)
             {
                 int toplam = 0;
@@ -96,6 +93,8 @@ namespace Collection
             }
 
         }
+        #endregion
+        #region Soru_2
         static void Soru2()
         {/*Soru 2 :
           * Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan, 
@@ -129,10 +128,6 @@ namespace Collection
             sayilar.Sort();
             Console.WriteLine("En küçük 3 sayi ortalaması : " + ortlama(EK).ToString());
             Console.WriteLine("İkisinin toplamı: " + (ortlama(EB) + ortlama(EK)).ToString());
-
-
-
-
 
 
             double ortlama(int[] say  )
@@ -178,8 +173,10 @@ namespace Collection
 
 
 
-
+   
         }
+         #endregion
+             #region Soru_3
         static void Soru3()
         {
             /*
@@ -223,13 +220,10 @@ namespace Collection
 
 
         }
+        
+        
+       #endregion
     }
-
-
-
-
-
-
 
 
     }
